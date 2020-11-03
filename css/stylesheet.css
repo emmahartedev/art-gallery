@@ -39,7 +39,7 @@ body{
 .jumbo-header{
     color:black;
     margin: 30px;
-    font-size:400%;
+    font-size:200%;
 }
 
 .jumbotron{
@@ -48,11 +48,11 @@ body{
 
 .jumbotron .lead{
     color:rgb(11, 78, 11);
-    font-size:200%;
+    font-size:100%;
 }
 
 .jumbotron small{
-    font-size:150%;
+    font-size:90%;
 }
 /*block dividers */
 
@@ -80,4 +80,33 @@ body{
     color:white;
     border-radius: 15px;
     border-color: rgb(113, 148, 223);
+}
+
+.navalert-container{
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left:0;
+    padding-right:0;
+    z-index:1;
+}
+
+.navbar{
+    margin-bottom:0;
+    border:0;
+    width:100%;
+    background-color: rgba(0,0,0,0.25)
+}
+
+.navbar .navbar-toggler{
+    border:0;
+}
+
+.navbar .navbar-brand{
+    color:white;
+    font-weight: bold; 
+}
+
+.navbar .nav-link{
+    font-weight:bold;
 }
