@@ -5,6 +5,18 @@ body{
 
 .alert-container{}
 
+.alert-container .col-12{
+    padding-left:0;
+    padding-right:0;
+}
+
+.alert-container .site-wide{
+    border-radius:0;
+    margin:0;
+    padding:10px;
+    background-color: #fad665e0;
+}
+
 .callout-container{
     height:100vh;
     background: url(/images/dog.jpg) no-repeat center center fixed; 
