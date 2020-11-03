@@ -1,0 +1,28 @@
+body{
+    font-family: 'Itim', cursive;
+}
+
+
+.alert-container{}
+
+.callout-container{
+    height:100vh;
+    background: url(/images/dog.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test-container{}
+
+.features-container{}
+
+
+
+
+
