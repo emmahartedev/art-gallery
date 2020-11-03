@@ -46,6 +46,25 @@ body{
 
 .features-container{}
 
+/*content styling gen */
+
+.feature i{
+    line-height:45px;
+    font-size:45px;
+    margin:10px;
+}
+
+.content-container{
+    padding-top:75px;
+    padding-bottom:75px;
+}
+
+.container-wrapper{}
+
+.container-wrapper--col{
+    background-color:rgb(31, 107, 107);
+    color:white;
+}
 
 /*jumbotron */
 
@@ -69,11 +88,18 @@ body{
 }
 /*block dividers */
 
-.block-divider{
+.block-divider--red{
     background-color: #c04d4d;
     border:#c04d4d;
+}
+
+.block-divider{
     width:75px;
     height:5px;
+}
+.block-divider--white{
+    background-color: white;
+    border:white;
 }
 
 /*buttons */ 
@@ -122,4 +148,11 @@ body{
 
 .navbar .nav-link{
     font-weight:bold;
+}
+
+.page-headers{
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
 }
